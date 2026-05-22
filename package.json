@@ -1,0 +1,27 @@
+{
+  "name": "rustplus-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot integrated with the official Rust+ Companion App API for team info and team chat. No cheats, no memory hacks, no packet interception.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@liamcottle/rustplus.js": "^2.5.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "keywords": [
+    "rust",
+    "rustplus",
+    "discord",
+    "bot",
+    "companion"
+  ],
+  "author": "",
+  "license": "MIT"
+}
